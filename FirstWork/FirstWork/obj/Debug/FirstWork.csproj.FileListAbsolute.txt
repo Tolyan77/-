@@ -1,0 +1,7 @@
+D:\Tolyan\C\FirstWork\FirstWork\bin\Debug\FirstWork.exe.config
+D:\Tolyan\C\FirstWork\FirstWork\bin\Debug\FirstWork.exe
+D:\Tolyan\C\FirstWork\FirstWork\bin\Debug\FirstWork.pdb
+D:\Tolyan\C\FirstWork\FirstWork\obj\Debug\FirstWork.csprojAssemblyReference.cache
+D:\Tolyan\C\FirstWork\FirstWork\obj\Debug\FirstWork.csproj.CoreCompileInputs.cache
+D:\Tolyan\C\FirstWork\FirstWork\obj\Debug\FirstWork.exe
+D:\Tolyan\C\FirstWork\FirstWork\obj\Debug\FirstWork.pdb

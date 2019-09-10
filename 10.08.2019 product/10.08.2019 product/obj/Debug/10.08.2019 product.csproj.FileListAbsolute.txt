@@ -1,0 +1,7 @@
+D:\Tolyan\C\10.08.2019 product\10.08.2019 product\obj\Debug\10.08.2019 product.csprojAssemblyReference.cache
+D:\Tolyan\C\10.08.2019 product\10.08.2019 product\obj\Debug\10.08.2019 product.csproj.CoreCompileInputs.cache
+D:\Tolyan\C\10.08.2019 product\10.08.2019 product\bin\Debug\10.08.2019 product.exe.config
+D:\Tolyan\C\10.08.2019 product\10.08.2019 product\bin\Debug\10.08.2019 product.exe
+D:\Tolyan\C\10.08.2019 product\10.08.2019 product\bin\Debug\10.08.2019 product.pdb
+D:\Tolyan\C\10.08.2019 product\10.08.2019 product\obj\Debug\10.08.2019 product.exe
+D:\Tolyan\C\10.08.2019 product\10.08.2019 product\obj\Debug\10.08.2019 product.pdb

@@ -15,10 +15,10 @@ namespace _10._08._2019_product
         public string name;
         public ProductType type;
         public decimal price;
-        readonly public  DateTime data;
+        readonly public DateTime data;
         readonly public int key;
 
-        public ProductInfo (string name, ProductType type, decimal price, int key)
+        public ProductInfo(string name, ProductType type, decimal price, int key)
         {
             this.key = key;
             this.name = name;
@@ -26,38 +26,55 @@ namespace _10._08._2019_product
             this.price = price;
             this.data = DateTime.Now;
         }
-
     }
-
     class Product
     {
         private ProductInfo productInfo;
         private static int count;
-
-        static Product()
+        private Provider r;
+        static  Product()
         {
-            count = 0;
-        }
-        public  Product()
-        {
-            productInfo = new ProductInfo();
+           // productInfo = new ProductInfo();
             count++;
         }
-        public Product(string name, ProductType type, decimal price,int key)
-        {
-            productInfo = new ProductInfo();
-            count++;
 
+        public ProductInfo ProductInfo
+        {
+            get { return productInfo; }
+        }
+
+        public Product()
+        {
+            SetData(out decimal price, out string name, out ProductType type);
+            productInfo = new ProductInfo(name, type, price, count + 1000);
+            r = new Provider();
+            r.SetInfo("Oleksiu", "China");
+            count++;
         }
         void SetData(out decimal price,out string name,out ProductType type)
         {
             //  price = decimal.Parse(Console.ReadLine());
-            while(!decimal.TryParse(Console.ReadLine(),out price))
+            Console.WriteLine($"\n\tName : ");
+            name = Console.ReadLine();
+
+            Console.WriteLine($"\n\tPrice : ");
+            while (!decimal.TryParse(Console.ReadLine(),out price))
             {
                 Console.WriteLine($"Incorect input!");
             }
-            name = Console.ReadLine();
-            type = Console.ReadLine();
+
+            Console.WriteLine($"\n\tType : ");
+            while (!Enum.TryParse(Console.ReadLine(), out type))
+            {
+                Console.WriteLine("Wrong type");
+            }
+        }
+        public void Show()
+        {
+            Console.WriteLine($"\n\tName: {productInfo.name}\n" +
+                $"Price: {productInfo.price}\n" +
+                $"Type: {productInfo.type}\n");
+            r.Show();
         }
     }
 }

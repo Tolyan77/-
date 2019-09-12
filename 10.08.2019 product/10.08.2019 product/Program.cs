@@ -10,9 +10,12 @@ namespace _10._08._2019_product
     {
         static void Main(string[] args)
         {
-            Provider f = new Provider();
-            f.SetInfo("Oleksiu", "China");
-            f.Show();
+            //Provider f = new Provider();
+            //f.SetInfo("Oleksiu", "China");
+            //f.Show();
+
+            Product g = new Product();
+            g.Show();
         }
     }
 }

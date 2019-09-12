@@ -20,7 +20,6 @@ namespace _10._08._2019_product
                 $"\tCountry : {country}\n" +
                 $"\tRating : {((rating == 0) ? "No rating" : rat)}\n" + 
                 $"\tIs pay VAT :{ ((isPayVAT == true) ? " true " : " false ")}");
-
         }
         public void SetInfo(string name, string country)
         {

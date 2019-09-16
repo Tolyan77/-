@@ -1,0 +1,7 @@
+D:\Tolyan\C\16.09.2019 operator perez\16.09.2019 operator perez\bin\Debug\16.09.2019 operator perez.exe.config
+D:\Tolyan\C\16.09.2019 operator perez\16.09.2019 operator perez\bin\Debug\16.09.2019 operator perez.exe
+D:\Tolyan\C\16.09.2019 operator perez\16.09.2019 operator perez\bin\Debug\16.09.2019 operator perez.pdb
+D:\Tolyan\C\16.09.2019 operator perez\16.09.2019 operator perez\obj\Debug\16.09.2019 operator perez.csprojAssemblyReference.cache
+D:\Tolyan\C\16.09.2019 operator perez\16.09.2019 operator perez\obj\Debug\16.09.2019 operator perez.csproj.CoreCompileInputs.cache
+D:\Tolyan\C\16.09.2019 operator perez\16.09.2019 operator perez\obj\Debug\16.09.2019 operator perez.exe
+D:\Tolyan\C\16.09.2019 operator perez\16.09.2019 operator perez\obj\Debug\16.09.2019 operator perez.pdb

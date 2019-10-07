@@ -11,11 +11,13 @@ namespace LINQ_07._10._2019
     {
         static void Main(string[] args)
         {
-            string[] teams = { "Congratulations!", "Today is your day.", "You’re off to Great Places!", "You’re off and away!", "You have brains in your head.", "You have feet in your shoes." };
+            string[] words1 = { "Gays", "Person", "element", "number", "Dimon", "Join" };
+            string[] words2 = { "Planet", "system", "Piter", "Join", "Hospital", "number" };
+            IEnumerable<string> result;
 
-            var selectedTeams = teams.Where(t => t.ToUpper().StartsWith("Б")).OrderBy(t => t);
-
-            foreach (string s in selectedTeams)
+            var selectedResults = words1.Union(words2).Where(item => Char.IsUpper(item[0]));
+         
+            foreach (string s in selectedResults)
                 Console.WriteLine(s);
         }
     }
